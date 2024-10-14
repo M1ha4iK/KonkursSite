@@ -1,0 +1,212 @@
+@font-face {
+    font-family: "OpenSans"; 
+    src: url("../fonts/OpenSans-Light.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+@font-face {
+    font-family: "BebasNeue"; 
+    src: url("../fonts/BebasNeue.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+@font-face {
+    font-family: "BebasNeueLight"; 
+    src: url("../fonts/BebasNeueLight.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+*{
+    
+}
+
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+p {
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+/* ОПИСАНИЕ */
+
+.description {
+    width: 100%;
+    height: 1410px;
+}
+.description-content {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    background: linear-gradient(#80000f,#120103);
+
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+.content-title {
+    font-size: 85px;
+    font-family: "BebasNeue";
+    margin: 78px 0px 0px 0px;
+}
+.content-text {
+    font-size: 24px;
+    margin: 53px 0px 40px 0px;
+    width: 1200px;
+    font-family: "OpenSans";
+    text-align: justify;
+}
+
+
+
+.description-img {
+
+}
+.description-img img{
+    width: 100%;
+    height: auto;
+}
+
+
+/* ГЕРОИ */
+
+.heroes {
+    height: 9000px;
+    display: flex;
+    justify-content: center;
+
+}
+.list-heroes {
+    
+}
+.heroes-name{
+    padding: 40px 0px 0px 0px;
+    text-align: center;
+    font-size: 85px;
+    font-family: "BebasNeue";
+}
+.heroes-item {
+    display: flex;
+    flex-direction: column;
+}
+.heroes-text {
+    font-size: 24px;
+    margin: 53px 0px 40px 0px;
+    width: 1200px;
+    font-family: "OpenSans";
+    text-align: justify;
+    font-weight: bold;
+}
+
+
+/* FOOTER */
+
+.footer {
+    width: 100%;
+    background: linear-gradient(#80000f,#120103);
+}
+.footer-container{
+    height: 350px;
+    display: flex;
+}
+.footer-nav-links {
+    margin: 94px 0px 0px 106px;
+    list-style-type: none;
+}
+.footer-nav-link{
+    margin: 0px 0px 32px 0px;
+}
+.footer-nav-link a{
+    text-decoration: none;
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 36px;
+    transition: 0.2s;
+    font-family: "BebasNeueLight";
+}
+.footer-nav-link a:hover{
+    color: #a50000;
+    transition: 0.2s;
+}
+.footer-best-places {
+    margin: 96px 0px 0px 105px;
+    list-style-type: none;
+}
+.best-place{
+    margin: 0px 0px 32px 0px;
+}
+.best-place a{
+    text-decoration: none;
+    color: white;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+    transition: 0.2s;
+    font-family: "BebasNeueLight";
+}
+.best-place a:hover{
+    color: #a50000;
+    transition: 0.2s;
+}
+.footer-about-project{
+    width: 573px;
+    height: 212px;
+    margin: 91px 0px 0px 100px;
+    font-family: "BebasNeueLight";
+}
+.footer-about-project p:nth-child(1){
+    margin: 0px 0px 0px 0px;
+    font-size: 35px;
+    color: white;
+}
+.footer-about-project p:nth-child(2){
+    margin: 17px 0px 0px 0px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+    font-family: "OpenSans";
+}
+.footer-about-project p:nth-child(3){
+    margin: 15px 0px 0px 0px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+    font-family: "OpenSans";
+}
+
+.copyright{
+    display: flex;
+    background-color: #210202;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+    font-family: "OpenSans";
+}
